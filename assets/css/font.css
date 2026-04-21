@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 
 body {
+  font-family: "Latin Modern Roman", Times, serif !important;
+  font-size: 1.05rem; /* LaTeX looks best slightly larger */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Latin Modern Roman", serif !important;
+  font-weight: bold;
+}
+body {
   background-color: #fff;
   padding:0px;
   font: 16.0px/1.5 Crimson Pro, serif; 
