@@ -1,57 +1,43 @@
-# Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
+# Basic Information
+title: Daniel Torren Peraire
+position: PhD in Climate Economics
+affiliation: ICTA-UAB — Institut de Ciència i Tecnologia Ambientals
+email: peraired@gmail.com
 
 # Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: climate economics, agent-based modelling, ABM, behavioral decarbonisation, low-carbon lifestyles, computational physics
+description: Academic homepage of Daniel Torren Peraire. Research on climate policy, social learning, and the co-evolutionary dynamics of low-carbon transitions.
+canonical: https://danielTorren.github.io/
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+# Links
+ssrn: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6486377
+cv_link: /files/CV_March_2026__2_page.pdf
+github_link: https://github.com/danielTorren
+linkedin: https://www.linkedin.com/in/daniel-torren-peraire/
+google_scholar: https://scholar.google.com/citations?user=dG1x1HEAAAAJ&hl=en
+# orcid: 0000-0000-0000-0000 # Add your ORCID here if you have it
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+# Images
+avatar: /images/profile.jpeg
+favicon: /assets/img/favicon.png
+favicon_dark: /assets/img/favicon-dark.png
 
 # Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 
 # Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 
 # Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Serif"
 
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-
-# Use this project as a remote theme for GitHub Pages
-# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+# Remote theme
 remote_theme: yaoyao-liu/minimal-light
 
-# The following files will be removed from the generated website.
+# Excluded files
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
   - minimal-light.gemspec
-  - html_source_file/
