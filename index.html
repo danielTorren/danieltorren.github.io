@@ -16,28 +16,52 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/publications.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latin-modern-web@1.0.0/style/latin-modern.min.css">
+    
+    <style>
+      /* Custom style for the primary CV link */
+      .cv-primary-link {
+        display: inline-block;
+        margin-top: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 1.5px solid #333;
+        padding-bottom: 2px;
+        transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+      }
+      .cv-primary-link:hover {
+        color: #007bff;
+        border-bottom-color: #007bff;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <a class="image avatar"><img src="assets/img/profile.jpeg" alt="avatar" /></a>
         <h1>Daniel Torren Peraire</h1>
-        <position style="font-size:1.10rem;">PhD in Climate Economics</position>
+        <position style="font-size:1.10rem;">Researcher in Climate Economics</position>
         <br>
         <a href="https://ictaweb.uab.cat/" rel="noopener"><autocolor>ICTA - Universitat Autònoma de Barcelona</autocolor></a>
         <br>
         <email>peraired@gmail.com</email>
+        <br>
+        
+        <a href="assets/files/curriculum_vitae.pdf" class="cv-primary-link">
+          <i class="ai ai-cv" style="font-size:1.3rem; vertical-align: middle;"></i> Full Curriculum Vitae
+        </a>
+        
         <br><br>
         <div class="social-icons">
-          <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=dG1x1HEAAAAJ&hl=en&oi=ao"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>
-          <a style="margin: 0 5px 0 0" href="assets/files/curriculum_vitae.pdf"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>
-          <a style="margin: 0 5px 0 0" href="https://github.com/danielTorren"><i class="fab fa-github"></i></a>
-          <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/daniel-torren-peraire/"><i class="fab fa-linkedin"></i></a>
+          <a style="margin: 0 10px 0 0" href="https://scholar.google.com/citations?user=dG1x1HEAAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>
+          <a style="margin: 0 10px 0 0" href="https://github.com/danielTorren" title="GitHub"><i class="fab fa-github"></i></a>
+          <a style="margin: 0 10px 0 0" href="https://www.linkedin.com/in/daniel-torren-peraire/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
         </div>
       </header>
+      
       <section>
         <h2 id="about-me">About Me</h2>
-        <p>I am a PhD graduate in Climate Economics from <b>ICTA- Universitat Autònoma de Barcelona</b> and <b>Ca' Foscari University of Venice</b>. My research focuses on using Agent-Based Modelling (ABM) to explore the co-evolutionary dynamics of social, cultural, and technological change in the context of the low-carbon transition. I'm originally from Barcelona but grew up in London. Outside of work I enjoy Bikepacking, thru-hiking, bouldering and film photography.</p>
+        <p>I am a researcher in Climate Economics from <b>ICTA- Universitat Autònoma de Barcelona</b> and <b>Ca' Foscari University of Venice</b>. My research focuses on using Agent-Based Modelling (ABM) to explore the co-evolutionary dynamics of social, cultural, and technological change in the context of the low-carbon transition. Outside of work I enjoy Bikepacking, thru-hiking, bouldering and film photography.</p>
 
         <h2 id="research-interests">Research Interests</h2>
         <ul>
@@ -56,12 +80,11 @@
         <h2 id="publications">Selected Publications</h2>
         <div class="publications">
           <ol class="bibliography">
-
             <li>
               <div class="pub-row">
                 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-                  <img src="./assets/img/jasss.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-                          <abbr class="badge">JASSS</abbr>
+                  <img src="./assets/img/jasss.png" class="teaser img-fluid z-depth-1" style="width:100px; height:auto;" />
+                  <abbr class="badge">JASSS</abbr>
                 </div>
                 <div class="col-sm-9">
                   <div class="title"><a href="https://www.jasss.org/27/1/13.html">An agent-based model of cultural change for a low-carbon transition</a></div>
@@ -78,8 +101,8 @@
             <li>
               <div class="pub-row">
                 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-                  <img src="./assets/img/misinformation.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-                          <abbr class="badge">JEBO</abbr>
+                  <img src="./assets/img/misinformation.png" class="teaser img-fluid z-depth-1" style="width:100px; height:auto;" />
+                  <abbr class="badge">JEBO</abbr>
                 </div>
                 <div class="col-sm-9">
                   <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S0167268125003300">(Mis)information diffusion and the financial market</a></div>
@@ -95,8 +118,8 @@
             <li>
               <div class="pub-row">
                 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-                  <img src="./assets/img/cultural_multiplier.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-                          <abbr class="badge">ERE</abbr>
+                  <img src="./assets/img/cultural_multiplier.png" class="teaser img-fluid z-depth-1" style="width:100px; height:auto;" />
+                  <abbr class="badge">ERE</abbr>
                 </div>
                 <div class="col-sm-9">
                   <div class="title"><a href="https://link.springer.com/article/10.1007/s10640-025-01048-z">The cultural multiplier of climate policy</a></div>
@@ -112,8 +135,8 @@
             <li>
               <div class="pub-row">
                 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-                  <img src="./assets/img/EV_adoption.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-                          <abbr class="badge">SSRN</abbr>
+                  <img src="./assets/img/EV_adoption.png" class="teaser img-fluid z-depth-1" style="width:100px; height:auto;" />
+                  <abbr class="badge">SSRN</abbr>
                 </div>
                 <div class="col-sm-9">
                   <div class="title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5241949">Driving in the wrong direction? A co-evolutionary model of electric vehicle adoption</a></div>
@@ -126,7 +149,6 @@
                 </div>
               </div>
             </li>
-
           </ol>
         </div>
 
@@ -141,7 +163,6 @@
                 </div>
               </div>
             </li>
-
             <li style="min-height: auto; margin-bottom: 1rem;">
               <div class="pub-row">
                 <div class="col-sm-9">
@@ -152,7 +173,6 @@
                 </div>
               </div>
             </li>
-
             <li style="min-height: auto; margin-bottom: 1rem;">
               <div class="pub-row">
                 <div class="col-sm-9">
@@ -187,7 +207,6 @@
             </li>
           </ol>
         </div>
-
 
         <h2 id="other-work">Other Research</h2>
         <ul>
